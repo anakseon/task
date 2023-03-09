@@ -1,0 +1,13 @@
+
+{ 
+Console.Write("¬ведите N: "); 
+int i = 1; int n = int.Parse(Console.ReadLine()); 
+
+while (i <= n) 
+{ 
+Console.Write(i.ToString() + " ");
+ i++; 
+} 
+
+Console.ReadKey(false); 
+}
